@@ -10,7 +10,7 @@ class App < Sinatra::Base
   end
 
 	get '/date' do
-		@date = Date.new
+		@date = Time.new
 		erb :date
 	end
 
