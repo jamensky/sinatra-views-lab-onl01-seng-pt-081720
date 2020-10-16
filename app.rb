@@ -10,7 +10,7 @@ class App < Sinatra::Base
   end
 
 	get '/date' do
-		@date = DateTime.new
+		@date = DateTime.strftime("%A")
 		erb :date
 	end
 
