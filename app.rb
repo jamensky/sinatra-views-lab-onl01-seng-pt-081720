@@ -1,6 +1,6 @@
 class App < Sinatra::Base
 
-	get '/' do
+	get '/hello' do
 		erb :views
 	end
 
