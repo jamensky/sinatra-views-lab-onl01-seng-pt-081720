@@ -4,5 +4,9 @@ class App < Sinatra::Base
 		erb :views
 	end
 
+	get '/goodbye' do
+	  erb :goodbye
+  end
+
 
 end
